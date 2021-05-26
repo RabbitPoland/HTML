@@ -1,0 +1,25 @@
+
+  h1 {
+    color: blue;
+    font-size: 160%;
+    font-family: Verdana;
+  }
+  p {
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  a:link, a:visited {
+    background-color: #f75247;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }

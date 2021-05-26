@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a:link {
+            color:  teal;
+        }
+
+        a:visited {
+            color: silver;
+
+        }
+
+        a:hover {
+            color: red;
+            background-color: yellow;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        input[type="checkbox"]:checked + label {
+            font-weight: bold;
+            color:  red;
+        }
+
+        input[type="checkbox"]:checked {
+            box-shadow: 0 0 0 3px red;
+        }
+
+        input[type="text"]:disabled {
+            background-color: lightgrey;
+            border: 2px solid darkgray;
+        }
+
+        div {
+            border: 3px solid black;
+            
+        }
+
+        div > p {
+            text-align: center;
+            
+        }
+
+        p:first-child {
+            color:  red;
+        }
+
+        p:last-child{
+            color: orange;
+
+        }
+
+        p:nth-child(even){
+            font-weight: bold;
+
+        }
+
+        p:nth-child(odd){
+            font-style: italic;
+
+        }
+
+        p:nth-child(5){
+            background-color: orange;
+
+        }
+
+        p:nth-child(3n){
+            border: 2px solid black;
+
+        }
+
+        p:not(.intro) {
+            text-decoration: underline;
+        }
+
+        p.intro {
+            background-color: lightgreen;
+        }
+
+        #android {
+            font-size: 16px;
+        }
+
+        #ios {
+            font-size: 16px;
+        }
+
+        #cos {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="checkbox" name="system" id="android">
+        <label for="android">Android</label>
+        <input type="checkbox" name="system" id="ios">
+        <label for="ios">IOS</label>
+        <input disabled type="text" name="text" id="cos">
+        <label for="cos">Jakiś tekst</label>
+
+    </form>
+
+
+    <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Regulamin</a></li>
+        <li><a href="#">TOS</a></li>
+        <li><a href="https://mozilla.org">mozilla</a></li>
+    </ul>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    
+</body>
+</html>

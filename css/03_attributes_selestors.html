@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        [data-color]{
+            background-color: red;
+            border: 3px solid black;
+            font-weight: bold;
+        }
+
+        [data-color = "blue"] {
+            background-color: lightblue;
+            border: 2px solid darkblue;
+        }
+
+        [data-green = "light" i]{
+            background-color:  lightgreen;
+        }
+
+
+        [data-green = "dark" i]{
+            background-color:  green;
+        }
+
+        [class *= 'str']{
+            background-color: orange;;
+        }
+
+        [class ~= "small-text"] {
+            font-size: 10px;
+        }
+
+        [class ^= "small-text"]{
+            border: 15px solid darkorange;
+        }
+
+        [class $= "box"]{
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .small-text {
+            color: inherit;
+        }
+
+        .str {
+            color: inherit;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div data-color>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolor! Voluptates saepe provident illo temporibus vel at repellat. Aut repellat modi saepe similique sit facere quaerat corporis culpa velit, mollitia qui veritatis voluptate nam doloribus, nobis et laborum. Sunt quia ipsam maxime praesentium quibusdam temporibus maiores cumque voluptates, nemo dolor ex incidunt adipisci. Nostrum nulla eveniet harum adipisci repudiandae, molestias sit animi temporibus ipsa itaque dolorem rerum dolore illum dicta sequi eaque? Rerum quas, modi, omnis voluptatum ipsam aperiam voluptas odit laborum vitae placeat ea distinctio deserunt aut. Facere quam error adipisci porro vero accusamus impedit optio distinctio perferendis autem!</div>
+    <div class="small-text str box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolor! Voluptates saepe provident illo temporibus vel at repellat. Aut repellat modi saepe similique sit facere quaerat corporis culpa velit, mollitia qui veritatis voluptate nam doloribus, nobis et laborum. Sunt quia ipsam maxime praesentium quibusdam temporibus maiores cumque voluptates, nemo dolor ex incidunt adipisci. Nostrum nulla eveniet harum adipisci repudiandae, molestias sit animi temporibus ipsa itaque dolorem rerum dolore illum dicta sequi eaque? Rerum quas, modi, omnis voluptatum ipsam aperiam voluptas odit laborum vitae placeat ea distinctio deserunt aut. Facere quam error adipisci porro vero accusamus impedit optio distinctio perferendis autem!</div>
+    <div data-green = 'light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolor! Voluptates saepe provident illo temporibus vel at repellat. Aut repellat modi saepe similique sit facere quaerat corporis culpa velit, mollitia qui veritatis voluptate nam doloribus, nobis et laborum. Sunt quia ipsam maxime praesentium quibusdam temporibus maiores cumque voluptates, nemo dolor ex incidunt adipisci. Nostrum nulla eveniet harum adipisci repudiandae, molestias sit animi temporibus ipsa itaque dolorem rerum dolore illum dicta sequi eaque? Rerum quas, modi, omnis voluptatum ipsam aperiam voluptas odit laborum vitae placeat ea distinctio deserunt aut. Facere quam error adipisci porro vero accusamus impedit optio distinctio perferendis autem!</div>
+    <p data-color = 'blue'>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

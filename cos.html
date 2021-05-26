@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin:0;
+          background: #6592CF;
+        }
+        #rect {
+          margin: 75px 50px;
+          width: 300px;
+          height: 150px;
+          background: #243D83;
+          overflow: hidden;
+          position: relative;
+        }
+        #outer {
+          border: 50px solid #6592CF;
+          border-radius: 150px;
+          width: 150px;
+          height: 150px;
+          background: #243D83;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        #inner {
+          border-radius: 25px;
+          width: 50px;
+          height: 50px;
+          background: #EEB850;
+          margin: 50px auto;
+        }
+      </style>
+</head>
+<body>
+    <div id="rect">
+        <div id="outer">
+          <div id="inner"></div>
+        </div>
+      </div>
+
+
+</body>
+</html>

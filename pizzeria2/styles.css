@@ -1,0 +1,174 @@
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/05/01/20/wood-2203740_1280.jpg");
+}
+
+#header {
+    background-color: black;
+    font-family: 'Cookie', cursive;
+
+}
+
+#logo {
+    width: 20%;
+    float: left ;
+}
+
+#logo img {
+    margin-left: 20px;
+}
+
+.menu {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a:hover {
+    color: #FFD77F;
+}
+
+.contact {
+    color: white;
+    font-size: 1.2rem;
+    margin: 25px auto;
+}
+
+#tel {
+    float: left;
+    width: 20%;
+}
+
+.box {
+    height: 200px;
+    background-color: black;
+}
+
+.orders {
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive;
+    padding: 10px;
+}
+
+.orders article {
+    color: white;
+    margin: 2rem;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+
+.button-section {
+    margin-top: 1rem;
+}
+
+.order-button {
+    color: #7FD7FF;
+    border: 2px solid #7FD7FF;
+}
+
+.book-button {
+    color: #FFD77F;
+    border: 2px solid #FFD77F;
+}
+
+.pizza-img {
+    background-image:url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.advantages-box {
+    color: transparent;
+}
+
+.one-third {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+
+.column {
+    position: relative;
+    height: 160px;
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.best-ingredients {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg") ;
+}
+
+.best-recipe {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg");
+}
+
+.fast-delivery {
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+}
+
+.tekst  {
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+    bottom: 10px;
+    right: 10px;
+}
+
+.kitchen-menu {
+    background-color: black;
+}
+
+.one-menu-forth {
+    width: 25%;
+    float: left;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.one-menu-forth img {
+    width: 100%;
+}
+
+.footer {
+    font-family: "Cookie";
+    background-color: black;
+    width: 100%;
+}

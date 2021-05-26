@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header { border: 2px solid red;}
+
+        .left {
+            float:left;
+            margin: 5px;
+
+        }
+        .right {
+            float: right ;
+            margin: 5px;
+
+        }
+        span { float: left; background-color: lightgrey; padding: 5px; margin: 5px;}
+
+        .clearfix::after {
+            content: " ";
+            display: block;
+            height: 0;
+            clear: both;
+        }
+        article, aside {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .left-clumn {
+            width: 75%;
+            height: 300px;
+            float: left;
+            background-color: lightgreen;
+
+        }
+
+        .sidebar{
+            width: 25%;
+            height: 300px;
+            float: left;
+            background-color: lightgrey;
+        }
+
+        .page {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="page">
+        <header class="header clearfix">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, rerum.
+            <img class="right" width="100px" src="../yas.jpg" alt="Son Goku">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum aperiam dicta odit autem pariatur eum, illum magnam quas quibusdam totam fuga! Pariatur, iusto eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit, fugiat necessitatibus praesentium sequi expedita temporibus dolore veniam laudantium repellat voluptas, quis suscipit asperiores eum magni! Ipsam possimus cumque harum architecto voluptates magni? Id, suscipit, veniam, mollitia accusantium repellendus voluptatum ratione sapiente provident labore architecto beatae officiis rerum pariatur rem?
+            <span>Lorem, ipsum.</span>
+            <span>Lorem, ipsum.</span>
+            <span>Lorem, ipsum.</span>
+            <span>Lorem, ipsum.</span>
+        </header>
+
+        <article class="left-clumn">
+            article
+        </article>
+
+        <aside class="sidebar">
+            aside
+        </aside>
+</div>
+</body>
+</html>
