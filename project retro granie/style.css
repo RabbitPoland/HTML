@@ -65,6 +65,7 @@ body {
     float: left;
 }
 
+
 .fb:hover {
     background-color: #4668b3;
 }
@@ -79,4 +80,10 @@ body {
 
 .gp:hover {
     background-color: #d95333;
+}
+
+.footer {
+    text-align: center;
+    background-color: #222222;
+    padding: 30px;
 }
